@@ -1,4 +1,4 @@
-#Sat May 09 16:45:12 PDT 2020
-base.0=/home/brad/dev/flutter/i_am_poor/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Mon May 11 13:52:57 PDT 2020
+base.0=/home/brad/dev/flutter/i_am_poor/I_am_poor/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
