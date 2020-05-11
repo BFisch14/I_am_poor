@@ -9,7 +9,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
     home: Scaffold(
-      body: Image.network('https://img.freepik.com/free-photo/dirty-hands-homeless-poor-man-with-empty-wallet-modern-capitalism-society_140289-3.jpg?size=626&ext=jpg'),
+      body: Center(
+        child: Image(
+           image:
+            NetworkImage('https://img.freepik.com/free-photo/dirty-hands-homeless-poor-man-with-empty-wallet-modern-capitalism-society_140289-3.jpg?size=626&ext=jpg'),
+      ),
+      ),
       backgroundColor: Colors.grey[500],
       appBar: AppBar(
         title: new Text("I am Poor", style: TextStyle( 
@@ -17,9 +22,9 @@ class MyApp extends StatelessWidget {
           )),
         centerTitle: true,
         backgroundColor: Colors.red[700],
+        ), 
       ),
-    ), 
-    );
+    ); 
   }
 }
 
